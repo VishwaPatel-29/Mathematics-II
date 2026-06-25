@@ -1,122 +1,88 @@
-# 📘 Mathematics-II (BECE0202) – Important 3 Mark Sums with Solutions
+# 📘 Mathematics-II (BECE0202) – Important 3 Mark Sums
 
 ## UNIT 1: Differential & Multivariable Calculus
 
-### 1. Differentiate (x^3 + 5x^2 - 2x + 1)
+### 1. Find d/dx (x³ + 5x² − 2x + 1)
 
 **Solution:**
 
-[
-\frac{d}{dx}(x^3)=3x^2
-]
+d/dx (x³) = 3x²
 
-[
-\frac{d}{dx}(5x^2)=10x
-]
+d/dx (5x²) = 10x
 
-[
-\frac{d}{dx}(-2x)=-2
-]
+d/dx (−2x) = −2
 
-[
-\frac{d}{dx}(1)=0
-]
+d/dx (1) = 0
 
 **Answer:**
 
-[
-\boxed{3x^2 + 10x - 2}
-]
+3x² + 10x − 2
 
 ---
 
-### 2. Differentiate (e^x \sin x)
+### 2. Find d/dx (eˣ sinx)
 
-**Using Product Rule:**
+(Product Rule)
 
-[
-\frac{d}{dx}(uv)=u\frac{dv}{dx}+v\frac{du}{dx}
-]
+**Solution:**
 
-[
-\frac{d}{dx}(e^x\sin x)
-=e^x\sin x+e^x\cos x
-]
+= eˣ sinx + eˣ cosx
 
 **Answer:**
 
-[
-\boxed{e^x(\sin x+\cos x)}
-]
+eˣ (sinx + cosx)
 
 ---
 
-### 3. Find (\frac{\partial z}{\partial x})
+### 3. Find ∂z/∂x
 
-Given:
+If
 
-[
-z=x^2y+xy^2
-]
+z = x²y + xy²
 
-Treat (y) as constant.
+**Solution:**
 
-[
-\frac{\partial z}{\partial x}
-=2xy+y^2
-]
+Treat y constant
+
+∂z/∂x = 2xy + y²
 
 **Answer:**
 
-[
-\boxed{2xy+y^2}
-]
+2xy + y²
 
 ---
 
-### 4. Find (\frac{\partial z}{\partial y})
+### 4. Find ∂z/∂y
 
-Given:
+If
 
-[
-z=x^2y+xy^2
-]
+z = x²y + xy²
 
-Treat (x) as constant.
+**Solution:**
 
-[
-\frac{\partial z}{\partial y}
-=x^2+2xy
-]
+Treat x constant
+
+∂z/∂y = x² + 2xy
 
 **Answer:**
 
-[
-\boxed{x^2+2xy}
-]
+x² + 2xy
 
 ---
 
-### 5. Find Gradient of (f(x,y)=x^2+y^2)
+### 5. Find Gradient
 
-[
-\nabla f=
-\left(
-\frac{\partial f}{\partial x},
-\frac{\partial f}{\partial y}
-\right)
-]
+f(x,y) = x² + y²
 
-# [
+**Solution:**
 
-(2x,2y)
-]
+∇f = (∂f/∂x, ∂f/∂y)
+
+= (2x, 2y)
 
 **Answer:**
 
-[
-\boxed{\nabla f=(2x,2y)}
-]
+∇f = (2x, 2y)
 
 ---
 
@@ -124,112 +90,77 @@ Treat (x) as constant.
 
 ### 6. Find Integrating Factor
 
-Given:
+dy/dx + 2y = x
 
-[
-\frac{dy}{dx}+2y=x
-]
+**Solution:**
 
-[
-P=2
-]
+P = 2
 
-[
-IF=e^{\int 2dx}
-=e^{2x}
-]
+IF = e^(∫2dx)
+
+= e^(2x)
 
 **Answer:**
 
-[
-\boxed{e^{2x}}
-]
+e^(2x)
 
 ---
 
 ### 7. Solve
 
-[
-\frac{dy}{dx}=3x^2
-]
+dy/dx = 3x²
 
-Integrating both sides,
+**Solution:**
 
-[
-y=\int 3x^2dx
-]
+dy = 3x² dx
 
-[
-y=x^3+C
-]
+Integrating,
+
+y = x³ + C
 
 **Answer:**
 
-[
-\boxed{y=x^3+C}
-]
+y = x³ + C
 
 ---
 
-### 8. Find Laplace Transform of (1)
+### 8. Find Laplace Transform
 
-[
-L(1)=\frac{1}{s}
-]
+L(1)
 
 **Answer:**
 
-[
-\boxed{\frac{1}{s}}
-]
+1/s
 
 ---
 
-### 9. Find Laplace Transform of (t)
+### 9. Find Laplace Transform
 
-[
-L(t)=\frac{1}{s^2}
-]
+L(t)
 
 **Answer:**
 
-[
-\boxed{\frac{1}{s^2}}
-]
+1/s²
 
 ---
 
-### 10. Find Laplace Transform of (e^{3t})
+### 10. Find Laplace Transform
 
-[
-L(e^{3t})=\frac{1}{s-3}
-]
+L(e³ᵗ)
 
 **Answer:**
 
-[
-\boxed{\frac{1}{s-3}}
-]
+1/(s−3)
 
 ---
 
-### 11. Find Laplace Transform of (\sin 2t)
+### 11. Find Laplace Transform
 
-[
-L(\sin at)=\frac{a}{s^2+a^2}
-]
-
-For (a=2),
-
-[
-L(\sin 2t)=\frac{2}{s^2+4}
-]
+L(sin2t)
 
 **Answer:**
 
-[
-\boxed{\frac{2}{s^2+4}}
-]
+2/(s²+4)
 
 ---
 
@@ -237,55 +168,39 @@ L(\sin 2t)=\frac{2}{s^2+4}
 
 ### 12. Find Eigenvalues
 
-Given:
+A = [2 0]
 
-[
-A=
-\begin{bmatrix}
-2 & 0\
-0 & 3
-\end{bmatrix}
-]
+```
+ [0 3]
+```
 
-[
-|A-\lambda I|=0
-]
+**Solution:**
 
-[
-(2-\lambda)(3-\lambda)=0
-]
+|A−λI| = 0
+
+(2−λ)(3−λ) = 0
 
 **Answer:**
 
-[
-\boxed{\lambda=2,;3}
-]
+λ = 2, 3
 
 ---
 
 ### 13. Check Orthogonality
 
-[
-a=(1,2)
-]
+a = (1,2)
 
-[
-b=(2,-1)
-]
+b = (2,−1)
 
-[
-a\cdot b=(1)(2)+(2)(-1)
-]
+**Solution:**
 
-[
-=2-2=0
-]
+a·b = (1)(2) + (2)(−1)
+
+= 2 − 2 = 0
 
 **Answer:**
 
-[
-\boxed{\text{Vectors are Orthogonal}}
-]
+Orthogonal
 
 ---
 
@@ -293,246 +208,130 @@ a\cdot b=(1)(2)+(2)(-1)
 
 Basis:
 
-[
-(1,0,0),(0,1,0),(0,0,1)
-]
-
-Number of basis vectors = 3
+(1,0,0), (0,1,0), (0,0,1)
 
 **Answer:**
 
-[
-\boxed{3}
-]
+3
 
 ---
 
 ### 15. Find Trace
 
-[
-A=
-\begin{bmatrix}
-2 & 3\
-1 & 4
-\end{bmatrix}
-]
+A = [2 3]
 
-[
-\text{Trace}=2+4
-]
+```
+ [1 4]
+```
+
+**Solution:**
+
+Trace = 2 + 4
 
 **Answer:**
 
-[
-\boxed{6}
-]
+6
 
 ---
 
 ### 16. Find Determinant
 
-[
-A=
-\begin{bmatrix}
-2 & 3\
-1 & 4
-\end{bmatrix}
-]
+A = [2 3]
 
-[
-|A|=(2)(4)-(1)(3)
-]
+```
+ [1 4]
+```
 
-[
-=8-3
-]
+**Solution:**
+
+|A| = (2)(4) − (1)(3)
+
+= 8 − 3
 
 **Answer:**
 
-[
-\boxed{5}
-]
+5
 
 ---
 
 # UNIT 4: Numerical Methods
 
-### 17. One Iteration of Newton-Raphson Method
+### 17. One Iteration of Newton-Raphson
 
-Given:
+f(x) = x² − 4
 
-[
-f(x)=x^2-4
-]
+Take
 
-[
-x_0=3
-]
+x₀ = 3
 
-[
-f(3)=5
-]
+**Solution:**
 
-[
-f'(3)=6
-]
+f(3) = 5
 
-[
-x_1=x_0-\frac{f(x_0)}{f'(x_0)}
-]
+f'(3) = 6
 
-[
-=3-\frac{5}{6}
-]
+x₁ = 3 − 5/6
 
-[
-=2.167
-]
+= 2.167
 
 **Answer:**
 
-[
-\boxed{x_1=2.167}
-]
+x₁ = 2.167
 
 ---
 
 ### 18. One Iteration of Bisection Method
 
-Given:
+a = 1, b = 3
 
-[
-a=1,\quad b=3
-]
+**Solution:**
 
-[
-x=\frac{a+b}{2}
-]
+x = (a+b)/2
 
-[
-=\frac{1+3}{2}
-]
+= (1+3)/2
 
-[
-=2
-]
+= 2
 
 **Answer:**
 
-[
-\boxed{2}
-]
+2
 
 ---
 
 ### 19. Solve Using Back Substitution
 
-Given:
+x + y = 5
 
-[
-x+y=5
-]
+y = 2
 
-[
-y=2
-]
+**Solution:**
 
-Substituting:
+x + 2 = 5
 
-[
-x+2=5
-]
-
-[
-x=3
-]
+x = 3
 
 **Answer:**
 
-[
-\boxed{x=3,; y=2}
-]
+x = 3, y = 2
 
 ---
 
 ### 20. One Gradient Descent Step
 
-Given:
+f(x) = x²
 
-[
-f(x)=x^2
-]
+x = 4
 
-[
-x=4
-]
+η = 0.1
 
-[
-\eta=0.1
-]
+**Solution:**
 
-Gradient:
+∇f = 2x = 8
 
-[
-\nabla f=2x=8
-]
+xnew = 4 − (0.1)(8)
 
-Update Rule:
-
-[
-x_{new}=x-\eta\nabla f
-]
-
-[
-=4-(0.1)(8)
-]
-
-[
-=3.2
-]
+= 3.2
 
 **Answer:**
 
-[
-\boxed{3.2}
-]
-
----
-
-# ⭐ Exam Tip
-
-Memorize these frequently used formulas:
-
-[
-\frac{d}{dx}(e^x)=e^x
-]
-
-[
-\frac{d}{dx}(\sin x)=\cos x
-]
-
-[
-L(1)=\frac{1}{s}
-]
-
-[
-L(t)=\frac{1}{s^2}
-]
-
-[
-L(e^{at})=\frac{1}{s-a}
-]
-
-[
-L(\sin at)=\frac{a}{s^2+a^2}
-]
-
-[
-\nabla f=
-\left(
-\frac{\partial f}{\partial x},
-\frac{\partial f}{\partial y}
-\right)
-]
-
-These are among the most repeated formulas in Mathematics-II university examinations.
+3.2
